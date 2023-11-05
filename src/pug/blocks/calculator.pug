@@ -1,0 +1,403 @@
+section.calculator
+	.popup.popup-application
+		.popup__bg
+		.popup__container.card 
+			.popup__close
+			.popup__title Оставьте заявку
+			span Наш менеджер свяжется с вами для консультации
+			form.popup__form(action="") 
+				.popup__input 
+					input(type="text" placeholder="Ваше имя" required)
+				.popup__input 
+					input(type="tel" placeholder="Введите ваш номер телефона" required)
+				.popup__agreement 
+					span.popup__agreement-agree.agreement-agree
+					p Согласен 
+						a(href="" target="_blank") с политикой конфиденциальности
+				button.popup__btn.btn-orange Отправить
+	.container 
+		h2.calculator__title.show 
+			span.title-text Калькулятор расчета инвестиций
+		.calculator__body 
+			.calculator__left 
+				.calculator__subtitle Выберите для кого
+				.calculator__btns 
+					a(href='#get1').click.calculator__btn.btn-green.active Физ. лицо
+					a(href='#get2').click.calculator__btn.btn-green ИП
+					a(href='#get3').click.calculator__btn.btn-green Юр. лицо
+					a(href='#get4').click.calculator__btn.btn-green Самозанятый
+				.calculator__left-item
+					.calculator__subtitle Выберите сумму
+					.calculator__select
+						.calculator__input-wrapper.btn-green
+							input#calculator__input1.calculator__input(type='text' value='500 000 ₽')
+							#calculator__input-range1.calculator__input-range 
+								input(type="range" name="" min="500000" max="30000000" value="500000")
+							#calculator__dropdown1.calculator__dropdown 
+								ul.calculator__dropdown1-list
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 500 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 600 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 700 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 800 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 900 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 000 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 100 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 200 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 300 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 400 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 500 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 600 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 700 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 800 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 1 900 000 
+										span.calculator__dropdown1-val ₽
+									li.calculator__dropdown1-item
+										span.calculator__dropdown1-num 2 000 000 
+										span.calculator__dropdown1-val ₽
+						.calculator__select-fromto 	
+							span 500 000 ₽
+							span 30 000 000 ₽
+				.calculator__left-item
+					.calculator__subtitle Выберите срок
+					.calculator__select
+						.calculator__input-wrapper.btn-green
+							input#calculator__input2.calculator__input(type='text' value='1')
+							#calculator__input-range2.calculator__input-range 
+								input(type="range" name="" min="6" max="60" value="6")
+							#calculator__dropdown2.calculator__dropdown 
+								ul.calculator__dropdown2-list
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 1 
+										span месяц
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 2 
+										span месяца
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 3 
+										span месяца
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 4 
+										span месяца
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 5 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 6 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 7 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 8 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 9 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 10 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 11 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 12 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 14 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 15 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 16 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 17 
+										span месяцев
+									li.calculator__dropdown2-item
+										span.calculator__dropdown2-num 18 
+										span месяцев
+						.calculator__select-fromto 	
+							span 6 мес.
+							span 60 мес.
+
+			.calculator__right 
+				#get1.card.card-calculator.active 
+					h3.card-calculator__title Я получу
+					.card-calculator__summ 6 875 000.00 ₽
+					span Ваш доход после вычета НДФЛ
+					.card-calculator__desc 
+						span Ставка
+						span 18%
+						span Дата первой  выплаты
+						span 11 ноября 2022
+					a.card-calculator__btn-schedule.click(href="#calculator-scrollto") График начислений
+					.btn-application.card-calculator__btn.btn-orange Инвестировать
+					.card-calculator__btn.btn-white Инвестиции от 100 тыс. руб.
+				#get2.card.card-calculator 
+					.card__title Я получу
+					.card-calculator__summ 6 875 000.00 ₽
+					span Ваш доход после вычета НДФЛ
+					.card-calculator__desc 
+						span Ставка
+						span 18%
+						span Дата первой  выплаты
+						span 11 ноября 2022
+					a.card-calculator__btn-schedule.click(href="#calculator-scrollto") График начислений
+					.btn-application.card-calculator__btn.btn-orange Инвестировать
+					.card-calculator__btn.btn-white Инвестиции от 100 тыс. руб.
+				#get3.card.card-calculator 
+					.card__title Я получу
+					.card-calculator__summ 6 875 000.00 ₽
+					span Ваш доход после вычета НДФЛ
+					.card-calculator__desc 
+
+						span Ставка
+						span 18%
+						span Дата первой  выплаты
+						span 11 ноября 2022
+					a.card-calculator__btn-schedule.click(href="#calculator-scrollto") График начислений
+					.btn-application.card-calculator__btn.btn-orange Инвестировать
+					.card-calculator__btn.btn-white Инвестиции от 100 тыс. руб.
+				#get4.card.card-calculator 
+					.card__title Я получу
+					.card-calculator__summ 6 875 000.00 ₽
+					span Ваш доход после вычета НДФЛ
+					.card-calculator__desc 
+						span Ставка
+						span 18%
+						span Дата первой  выплаты
+						span 11 ноября 2022
+					a.card-calculator__btn-schedule.click(href="#calculator-scrollto") График начислений
+					.btn-application.card-calculator__btn.btn-orange Инвестировать
+					.card-calculator__btn.btn-white Инвестиции от 100 тыс. руб.
+		#calculator-scrollto
+		.calculator-hidden-info
+			#schedule.schedule
+				h3.schedule__title График начислений
+				table
+					tbody
+						tr
+							td Дата первой выплаты
+							td 13 ноября 2022 г.
+						tr
+							td Сумма
+							td 1 500 000 руб.
+						tr
+							td Срок
+							td 25 мес.
+						tr
+							td Ставка
+							td 18%
+						tr
+							td Капитализация
+							td 
+						tr
+							td Итого (после уплаты НДФЛ)
+							td 489 375.00 руб.
+
+
+			.calculation
+				h3.calculation__title Примерный расчет
+				.calculation__table-wrapper
+					table
+						thead
+							tr
+								th Месяц
+								th Дата начисления
+								th Начислено (руб.)
+								th НДФЛ (руб.)
+								th Итого к выдаче (руб.)
+						tbody
+							tr
+								td 1
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 2
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 3
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 4
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 5
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 6
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 7
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 8
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 9
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 10
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 11
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 12
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 13
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 14
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 15
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 16
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 17
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 18
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 19
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 20
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 21
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 22
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 23
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr
+								td 24
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr.calculation-table-last
+								td 25
+								td 13 11 2022
+								td 22 500.00
+								td 2 925.00
+								td 19 575.00
+							tr.calculation-table-total
+								td 25
+								td 13 11 2022
+								td 562 500.00
+								td 73 125.00	
+								td 489 375.00
+
+				p Актуально при внесении инвестиций 13 октября 2022г.
+
+
+				.calculator-hidden-info__btns 
+					a(href).btn-white Печать
+					a(href).btn-orange Сохранить файл с результатом

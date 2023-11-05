@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="css/main.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&amp;family=Raleway:wght@400;600;700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <title>Главная</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"></header>
+      <main class="main">
+        <section class="hero">
+          <video loop="loop" muted="muted" src="images/hero/hero.mp4" autoplay="" poster=""></video>
+          <div class="container"> 
+            <div class="hero__body">
+              <h1> <span>Инвестируйте и зарабатывайте</span></h1>
+              <p>Выгодные инвестиции в ООО МФК «Саммит» — доход до 18% годовых</p>
+            </div>
+          </div>
+        </section>
+        <section class="calculator">
+          <div class="popup popup-application">
+            <div class="popup__bg"></div>
+            <div class="popup__container card"> 
+              <div class="popup__close"></div>
+              <div class="popup__title">Оставьте заявку</div><span>Наш менеджер свяжется с вами для консультации</span>
+              <form class="popup__form" action=""> 
+                <div class="popup__input"> 
+                  <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="popup__input"> 
+                  <input type="tel" placeholder="Введите ваш номер телефона" required>
+                </div>
+                <div class="popup__agreement"> <span class="popup__agreement-agree agreement-agree"></span>
+                  <p>Согласен <a href="" target="_blank">с политикой конфиденциальности</a></p>
+                </div>
+                <button class="popup__btn btn-orange">Отправить</button>
+              </form>
+            </div>
+          </div>
+          <div class="container"> 
+            <h2 class="calculator__title show"> <span class="title-text">Калькулятор расчета инвестиций</span></h2>
+            <div class="calculator__body"> 
+              <div class="calculator__left"> 
+                <div class="calculator__subtitle">Выберите для кого</div>
+                <div class="calculator__btns"> <a class="click calculator__btn btn-green active" href="#get1">Физ. лицо</a><a class="click calculator__btn btn-green" href="#get2">ИП</a><a class="click calculator__btn btn-green" href="#get3">Юр. лицо</a><a class="click calculator__btn btn-green" href="#get4">Самозанятый</a></div>
+                <div class="calculator__left-item">
+                  <div class="calculator__subtitle">Выберите сумму</div>
+                  <div class="calculator__select">
+                    <div class="calculator__input-wrapper btn-green">
+                      <input class="calculator__input" id="calculator__input1" type="text" value="500 000 ₽">
+                      <div class="calculator__input-range" id="calculator__input-range1"> 
+                        <input type="range" name="" min="500000" max="30000000" value="500000">
+                      </div>
+                      <div class="calculator__dropdown" id="calculator__dropdown1"> 
+                        <ul class="calculator__dropdown1-list">
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">500 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">600 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">700 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">800 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">900 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 000 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 100 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 200 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 300 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 400 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 500 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 600 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 700 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 800 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">1 900 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                          <li class="calculator__dropdown1-item"><span class="calculator__dropdown1-num">2 000 000 </span><span class="calculator__dropdown1-val">₽</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="calculator__select-fromto">	<span>500 000 ₽</span><span>30 000 000 ₽</span></div>
+                  </div>
+                </div>
+                <div class="calculator__left-item">
+                  <div class="calculator__subtitle">Выберите срок</div>
+                  <div class="calculator__select">
+                    <div class="calculator__input-wrapper btn-green">
+                      <input class="calculator__input" id="calculator__input2" type="text" value="1">
+                      <div class="calculator__input-range" id="calculator__input-range2"> 
+                        <input type="range" name="" min="6" max="60" value="6">
+                      </div>
+                      <div class="calculator__dropdown" id="calculator__dropdown2"> 
+                        <ul class="calculator__dropdown2-list">
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">1 </span><span>месяц</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">2 </span><span>месяца</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">3 </span><span>месяца</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">4 </span><span>месяца</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">5 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">6 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">7 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">8 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">9 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">10 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">11 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">12 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">14 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">15 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">16 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">17 </span><span>месяцев</span></li>
+                          <li class="calculator__dropdown2-item"><span class="calculator__dropdown2-num">18 </span><span>месяцев</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="calculator__select-fromto">	<span>6 мес.</span><span>60 мес.</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="calculator__right"> 
+                <div class="card card-calculator active" id="get1"> 
+                  <h3 class="card-calculator__title">Я получу</h3>
+                  <div class="card-calculator__summ">6 875 000.00 ₽</div><span>Ваш доход после вычета НДФЛ</span>
+                  <div class="card-calculator__desc"> <span>Ставка</span><span>18%</span><span>Дата первой  выплаты</span><span>11 ноября 2022</span></div><a class="card-calculator__btn-schedule click" href="#calculator-scrollto">График начислений</a>
+                  <div class="btn-application card-calculator__btn btn-orange">Инвестировать</div>
+                  <div class="card-calculator__btn btn-white">Инвестиции от 100 тыс. руб.</div>
+                </div>
+                <div class="card card-calculator" id="get2"> 
+                  <div class="card__title">Я получу</div>
+                  <div class="card-calculator__summ">6 875 000.00 ₽</div><span>Ваш доход после вычета НДФЛ</span>
+                  <div class="card-calculator__desc"> <span>Ставка</span><span>18%</span><span>Дата первой  выплаты</span><span>11 ноября 2022</span></div><a class="card-calculator__btn-schedule click" href="#calculator-scrollto">График начислений</a>
+                  <div class="btn-application card-calculator__btn btn-orange">Инвестировать</div>
+                  <div class="card-calculator__btn btn-white">Инвестиции от 100 тыс. руб.</div>
+                </div>
+                <div class="card card-calculator" id="get3"> 
+                  <div class="card__title">Я получу</div>
+                  <div class="card-calculator__summ">6 875 000.00 ₽</div><span>Ваш доход после вычета НДФЛ</span>
+                  <div class="card-calculator__desc"> <span>Ставка</span><span>18%</span><span>Дата первой  выплаты</span><span>11 ноября 2022</span></div><a class="card-calculator__btn-schedule click" href="#calculator-scrollto">График начислений</a>
+                  <div class="btn-application card-calculator__btn btn-orange">Инвестировать</div>
+                  <div class="card-calculator__btn btn-white">Инвестиции от 100 тыс. руб.</div>
+                </div>
+                <div class="card card-calculator" id="get4"> 
+                  <div class="card__title">Я получу</div>
+                  <div class="card-calculator__summ">6 875 000.00 ₽</div><span>Ваш доход после вычета НДФЛ</span>
+                  <div class="card-calculator__desc"> <span>Ставка</span><span>18%</span><span>Дата первой  выплаты</span><span>11 ноября 2022</span></div><a class="card-calculator__btn-schedule click" href="#calculator-scrollto">График начислений</a>
+                  <div class="btn-application card-calculator__btn btn-orange">Инвестировать</div>
+                  <div class="card-calculator__btn btn-white">Инвестиции от 100 тыс. руб.</div>
+                </div>
+              </div>
+            </div>
+            <div id="calculator-scrollto"></div>
+            <div class="calculator-hidden-info">
+              <div class="schedule" id="schedule">
+                <h3 class="schedule__title">График начислений</h3>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Дата первой выплаты</td>
+                      <td>13 ноября 2022 г.</td>
+                    </tr>
+                    <tr>
+                      <td>Сумма</td>
+                      <td>1 500 000 руб.</td>
+                    </tr>
+                    <tr>
+                      <td>Срок</td>
+                      <td>25 мес.</td>
+                    </tr>
+                    <tr>
+                      <td>Ставка</td>
+                      <td>18%</td>
+                    </tr>
+                    <tr>
+                      <td>Капитализация</td>
+                      <td> </td>
+                    </tr>
+                    <tr>
+                      <td>Итого (после уплаты НДФЛ)</td>
+                      <td>489 375.00 руб.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="calculation">
+                <h3 class="calculation__title">Примерный расчет</h3>
+                <div class="calculation__table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Месяц</th>
+                        <th>Дата начисления</th>
+                        <th>Начислено (руб.)</th>
+                        <th>НДФЛ (руб.)</th>
+                        <th>Итого к выдаче (руб.)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>10</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>11</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>12</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>13</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>14</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>15</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>16</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>17</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>18</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>19</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>20</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>21</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>22</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>23</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr>
+                        <td>24</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr class="calculation-table-last">
+                        <td>25</td>
+                        <td>13 11 2022</td>
+                        <td>22 500.00</td>
+                        <td>2 925.00</td>
+                        <td>19 575.00</td>
+                      </tr>
+                      <tr class="calculation-table-total">
+                        <td>25</td>
+                        <td>13 11 2022</td>
+                        <td>562 500.00</td>
+                        <td>73 125.00	</td>
+                        <td>489 375.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p>Актуально при внесении инвестиций 13 октября 2022г.</p>
+                <div class="calculator-hidden-info__btns"> <a class="btn-white" href>Печать</a><a class="btn-orange" href>Сохранить файл с результатом</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="rate">
+          <div class="container"> 
+            <div class="rate__header show"> <span class="line show"></span>
+              <h2 class="show"> <span class="title-text show">Наши ставки</span></h2>
+              <p class="show">Пересчет процентов происходит за весь срок пользования денежными средствами. В случае возникновения переплаты инвестору (при досрочном изъятии), сумма переплаты удерживается из суммы основного долга.</p>
+            </div>
+            <div class="rate__items"> 
+              <div class="show card rate__item rate__item1"> 
+                <div class="rate__column1">
+                  <h3>Продукт<br> Стабильный</h3>
+                  <div class="btn-orange btn-rate1">Инвестировать</div>
+                </div>
+                <div class="rate__column2">
+                  <div class="rate__column2-title">Ежемесячно/Капитализация</div>
+                  <p>Досрочное изьятие с уведомлением за 30 календарных дней до момента возврата (после 6 мес.) с пересчетом -3%</p>
+                </div>
+                <div class="rate__column3"> 
+                  <div class="rate__column3-row"> <span>6-12 мес.</span><span>15%</span></div>
+                  <div class="rate__column3-row"> <span>13-24 мес.</span><span>16%</span></div>
+                  <div class="rate__column3-row"> <span>Более 24 мес.</span><span>18%</span></div>
+                </div>
+              </div>
+              <div class="show card rate__item"> 
+                <div class="rate__column1"> 
+                  <h3>Продукт<br> Надежный</h3>
+                  <div class="btn-orange btn-rate2">Инвестировать</div>
+                </div>
+                <div class="rate__column2">
+                  <div class="rate__column2-title">Ежемесячно/Капитализация</div>
+                  <p>Досрочное изьятие в течении 3-х рабочих дней без потери процентов</p>
+                </div>
+                <div class="rate__column3"> 
+                  <div class="rate__column3-row"> <span>12%</span></div>
+                </div>
+              </div>
+              <div class="show card rate__item"> 
+                <div class="rate__column1"> 
+                  <h3>Продукт<br> Надежный</h3>
+                  <div class="btn-orange btn-rate3">Инвестировать</div>
+                </div>
+                <div class="rate__column2">
+                  <div class="rate__column2-title">Ежемесячно/Капитализация</div>
+                  <p>Досрочное изьятие в любой момент в течении 30 рабочих дней без потери процентов</p>
+                </div>
+                <div class="rate__column3"> 
+                  <div class="rate__column3-row"> <span>14%</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popup popup-rate1">
+            <div class="popup__bg"></div>
+            <div class="popup__container card"> 
+              <div class="popup__close"></div>
+              <div class="popup__title">Оставьте заявку1</div><span>Наш менеджер свяжется с вами для консультации</span>
+              <form class="popup__form" action=""> 
+                <div class="popup__input"> 
+                  <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="popup__input"> 
+                  <input type="tel" placeholder="Введите ваш номер телефона" required>
+                </div>
+                <div class="popup__agreement"> <span class="popup__agreement-agree agreement-agree"></span>
+                  <p>Согласен <a href="" target="_blank">с политикой конфиденциальности</a></p>
+                </div>
+                <button class="popup__btn btn-orange">Отправить</button>
+              </form>
+            </div>
+          </div>
+          <div class="popup popup-rate2">
+            <div class="popup__bg"></div>
+            <div class="popup__container card"> 
+              <div class="popup__close"></div>
+              <div class="popup__title">Оставьте заявку2</div><span>Наш менеджер свяжется с вами для консультации</span>
+              <form class="popup__form" action=""> 
+                <div class="popup__input"> 
+                  <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="popup__input"> 
+                  <input type="tel" placeholder="Введите ваш номер телефона" required>
+                </div>
+                <div class="popup__agreement"> <span class="popup__agreement-agree agreement-agree"></span>
+                  <p>Согласен <a href="" target="_blank">с политикой конфиденциальности</a></p>
+                </div>
+                <button class="popup__btn btn-orange">Отправить</button>
+              </form>
+            </div>
+          </div>
+          <div class="popup popup-rate3">
+            <div class="popup__bg"></div>
+            <div class="popup__container card"> 
+              <div class="popup__close"></div>
+              <div class="popup__title">Оставьте заявку3</div><span>Наш менеджер свяжется с вами для консультации</span>
+              <form class="popup__form" action=""> 
+                <div class="popup__input"> 
+                  <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="popup__input"> 
+                  <input type="tel" placeholder="Введите ваш номер телефона" required>
+                </div>
+                <div class="popup__agreement"> <span class="popup__agreement-agree agreement-agree"></span>
+                  <p>Согласен <a href="" target="_blank">с политикой конфиденциальности</a></p>
+                </div>
+                <button class="popup__btn btn-orange">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="container about__container"> 
+            <h2 class="about__title show"> <span class="title-text">Почему выбирают Доброзайм</span></h2>
+            <div class="swiper about__swiper" thumbsslider="">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2021</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2020</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2019</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2018</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2017</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2016</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2015</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2014</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2013</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2012</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__btn btn-green">2011</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper about__swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about__body"> 
+                    <div class="about__nums"> 
+                      <div class="about__num"> <span>23</span>
+                        <p>офиса</p>
+                      </div>
+                      <div class="about__num"> <span>110 000</span>
+                        <p>выдано микро кредитов</p>
+                      </div>
+                      <div class="about__num"> <span>2,8</span>
+                        <p>млрд. руб. объем займов</p>
+                      </div>
+                      <div class="about__num"> <span>370</span>
+                        <p>чел. штат компании</p>
+                      </div>
+                    </div>
+                    <ul class="about__list">
+                      <li class="about__item">По РФ запуск выдачи по телефону:</li>
+                      <li class="about__item">Размер портфеля привлеченных инвестиций 534 270 922 рублей;</li>
+                      <li class="about__item">Выдано 214 358 микрозаймов, что на 121% больше 2020 года;</li>
+                      <li class="about__item">2021г закрыт с рекордной прибылью 76 млн. руб.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="chart">
+          <div class="container"> 
+            <div class="chart__btns"> <a class="chart__btn click active" href="#chart__img1">График выдач по количествуву </a><a class="chart__btn click" href="#chart__img2">График выдач по сумме </a></div>
+            <div class="chart__body"> 
+              <div class="chart__img active" id="chart__img1"> <img src="images/chart/1.svg" alt="alt"></div>
+              <div class="chart__img" id="chart__img2"> <img src="images/chart/1.svg" alt="alt"></div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="popup popup-reviews">
+            <div class="popup__bg"></div>
+            <div class="popup__container card"> 
+              <div class="popup__close"></div>
+              <div class="popup__title">Оставьте Отзыв</div><span>Наш менеджер свяжется с вами для консультации</span>
+              <form class="popup__form" action=""> 
+                <div class="popup__input"> 
+                  <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="popup__input"> 
+                  <input type="tel" placeholder="Введите ваш номер телефона">
+                </div>
+                <div class="popup__agreement"> <span class="popup__agreement-agree agreement-agree"></span>
+                  <p>Согласен <a href="">с политикой конфиденциальности</a></p>
+                </div>
+                <button class="popup__btn btn-orange">Отправить</button>
+              </form>
+            </div>
+          </div>
+          <div class="container"> 
+            <h2 class="reviews__title show"> <span class="title-text">Отзывы наших инвесторов</span><span class="line show"></span></h2>
+            <div class="reviews__items-wrapper">
+              <div class="reviews__items"> 
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card1" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card2" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card2"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва
+                      <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p></span></div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card3" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card3"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card4" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card4"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card5" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card5"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card6" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card6"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card7" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card7"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card8" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card8"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card9" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card9"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card10" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card10"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card11" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card11"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+                <div class="reviews__item"><a class="reviews__card card show" href="#reviews__card12" data-fancybox="gallery1"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                    <div class="reviews__read-more">Читать полностью </div></a>
+                  <div class="reviews__card card" id="reviews__card12"> <span class="reviews__card-name">Евгений Анатольевич Д.</span><span>г. Москва</span>
+                    <p>Мы с мужем сотрудничаем с компанией «Саммит» четыре года. И не разу не пожалели об этом. В процессе сотрудничества мы увеличили сумму вложений. На протяжении всего периода ...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__btns"> 
+              <div class="reviews__btn btn-white">Показать еще</div>
+              <div class="reviews__btn btn-orange">Добавить отзыв</div>
+            </div>
+          </div>
+        </section>
+        <section class="boss">
+          <div class="container"> 
+            <div class="boss__body show">
+              <div class="boss__left"> 
+                <div class="boss__info"> 
+                  <div class="boss__img"> <img src="images/boss/1.png" alt="alt"></div>
+                  <div class="boss__info-inner"> 
+                    <div class="boss__name">Ирина Афанасьева</div>
+                    <div class="boss__pos">Руководитель отдела инвестиций</div>
+                    <div class="boss__tel"> <img src="images/boss/1.svg" alt="alt"><a href="tel:8007009416">8 (800) 700-94-16</a></div>
+                    <div class="boss__time">8:00 - 18:00 МСК</div>
+                    <div class="boss__email"> <img src="images/boss/2.svg" alt="alt"><a href="mailto:investor@dobrozaim.ru">investor@dobrozaim.ru</a></div>
+                  </div>
+                </div>
+                <p>«Работаем на рынке с 2011 года, занимаем лидирующие позиции, входим в 2% МФО, которые обладают статусом МФК. Инвестируя в надёжную компанию, вы будете получать высокую и регулярную прибыль.» Обратитесь ко мне для подбора оптимальной инвестиционной программы!</p>
+              </div>
+              <div class="boss__right"> 
+                <form class="form card" action=""> 
+                  <div class="form__input">
+                    <input type="text" placeholder="Ваше имя">
+                  </div>
+                  <div class="form__input">
+                    <input type="tel" placeholder="Введите ваш номер телефона">
+                  </div>
+                  <div class="form__agreement"> <span class="form__agreement-agree"> </span>
+                    <p>Согласен с <a href="#">политикой конфиденциальности</a></p>
+                  </div>
+                  <button class="form__btn btn-orange">Перезвоните мне</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="doc">
+          <div class="container"> 
+            <h2 class="show"> <span class="title-text">Работаем по закону</span></h2>
+            <p class="show">Компания «ДоброЗайм» обладает всеми необходимыми документами для работы на микрофинансовом рынке:</p>
+            <div class="doc__body"> 
+              <div class="line-green show"></div>
+              <div class="doc__left"> 
+                <div class="doc__left-items"> <a class="doc__left-item" href="" download> 
+                    <figure><img src="images/doc/file.svg" alt="alt">
+                      <p>Правила привлечения денежных средств <span>DOCX, 51.3 KB</span></p>
+                    </figure></a><a class="doc__left-item" href="" download> 
+                    <figure><img src="images/doc/file.svg" alt="alt">
+                      <p>Информация об условиях привлечения займов и(или) кредитов (инвестирования) <span>DOCX, 26.6 KB</span></p>
+                    </figure></a><a class="doc__left-item" href="" download> 
+                    <figure><img src="images/doc/file.svg" alt="alt">
+                      <p>Договор займа с физ.лицомDOCX, 28.8 KBДоговор с физ.лицом (Надёжный +) <span>DOCX, 28.8 KB</span></p>
+                    </figure></a><a class="doc__left-item" href="" download> 
+                    <figure><img src="images/doc/file.svg" alt="alt">
+                      <p>Сведения о существенных факта <span>DOCX, 30.9 KB</span></p>
+                    </figure></a><a class="doc__left-item" href="" download> 
+                    <figure><img src="images/doc/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I квартал 2022г <span>DOCX, 14.3 KB</span></p>
+                    </figure></a></div>
+              </div>
+              <div class="doc__right"> 
+                <div class="doc__right-items"><a class="doc__right-item" href="images/doc/1.png" data-caption="1OOO МКК «ДоброЗайм Быстрое решение»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">1OOO МКК «ДоброЗайм Быстрое решение»</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="Свидетельство участника Союза «Микрофинансовый Альянс»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">Свидетельство участника Союза «Микрофинансовый Альянс»</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="Свидетельство о регистрации ООО МФК Саммит" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">Свидетельство о регистрации ООО МФК Саммит</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="Свидетельство участника СРО «Мир»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">Свидетельство участника СРО «Мир»</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="Свидетельство о присоединении к системе финансового омбудсмена" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">Свидетельство о присоединении к системе финансового омбудсмена</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="OOO МКК «ДоброЗайм Быстрое решение»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">OOO МКК «ДоброЗайм Быстрое решение»</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="OOO МКК «ДоброЗайм Быстрое решение»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">OOO МКК «ДоброЗайм Быстрое решение»</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="OOO МКК «ДоброЗайм Быстрое решение»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">OOO МКК «ДоброЗайм Быстрое решение»</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="OOO МКК «ДоброЗайм Быстрое решение»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">OOO МКК «ДоброЗайм Быстрое решение»</p>
+                    </figure></a><a class="doc__right-item" href="images/doc/1.png" data-caption="OOO МКК «ДоброЗайм Быстрое решение»" data-fancybox="gallery"> 
+                    <figure>
+                      <div class="doc__right-img"><img src="images/doc/1.png" alt="alt"></div>
+                      <p class="doc__right-desc">OOO МКК «ДоброЗайм Быстрое решение»</p>
+                    </figure></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="faq">
+          <div class="container"> 
+            <h2 class="faq__title show"> <span class="title-text">Часто задаваемые вопросы</span><span class="line show"></span></h2>
+            <div class="faq__items"> 
+              <div class="faq__item spoiler">
+                <div class="faq__subtitle spoiler__title active">Почему мы не тратим ваши деньги на страховку?<span></span></div>
+                <div class="spoiler__content active"> 
+                  <p>С самого начала вложение денежных средств в микрофинансовые организации рассматривалось законодательством РФ как способ получить прибыль для опытных инвесторов, которые хорошо понимают рынок. Порог минимальной суммы вложений весьма высок – 1.5 млн рублей. Поэтому не удивительно, что инвесторы хотят обезопасить себя от риска потерять деньги. В таком случае слово «страховка» имеет весьма высокий градус убеждения, но так ли она необходима?</p>
+                  <p>Те редкие компании, которые предлагают страховые услуги, страхуют лишь предпринимательские риски, при этом страховые компании не несут ответственность за любые другие форс – мажорные обстоятельства.</p>
+                  <p>Например, если Банк России исключает МФО из государственного реестра микрофинансовых организаций, то страховая компания не будет нести никакой ответственности перед инвестором. Данная ситуация не будет являться страховым случаем, а это значит инвестор не получит страховой выплаты. Стоит отметить и тот факт, что, в настоящий момент, не зафиксировано прецедента в выплате страховой компенсации инвестору, застраховавшего риски инвестирования в МФО.</p>
+                  <p>Поэтому «ДоброЗайм» не сотрудничает со страховыми компаниями и не включает страховку в пакет своих услуг, экономя деньги, время, силы и нервы своих инвесторов. Но, по желанию инвестора, мы готовы добавить условие страхования в договор займа, при этом инвестор может самостоятельно выбрать страховую компанию.</p>
+                  <p>Наша компания – отличный вариант для ваших инвестиций. Это доказывает ее история развития с 2011 года и долгосрочное сотрудничество с нашими инвесторами по всей России с 2015г.</p>
+                </div>
+              </div>
+              <div class="faq__item spoiler">
+                <div class="faq__subtitle spoiler__title">Какие преимущества у вашей компании?<span></span></div>
+                <div class="spoiler__content"> 
+                  <p>С самого начала вложение денежных средств в микрофинансовые организации рассматривалось законодательством РФ как способ получить прибыль для опытных инвесторов, которые хорошо понимают рынок. Порог минимальной суммы вложений весьма высок – 1.5 млн рублей. Поэтому не удивительно, что инвесторы хотят обезопасить себя от риска потерять деньги. В таком случае слово «страховка» имеет весьма высокий градус убеждения, но так ли она необходима?</p>
+                  <p>Те редкие компании, которые предлагают страховые услуги, страхуют лишь предпринимательские риски, при этом страховые компании не несут ответственность за любые другие форс – мажорные обстоятельства.</p>
+                  <p>Например, если Банк России исключает МФО из государственного реестра микрофинансовых организаций, то страховая компания не будет нести никакой ответственности перед инвестором. Данная ситуация не будет являться страховым случаем, а это значит инвестор не получит страховой выплаты. Стоит отметить и тот факт, что, в настоящий момент, не зафиксировано прецедента в выплате страховой компенсации инвестору, застраховавшего риски инвестирования в МФО.</p>
+                  <p>Поэтому «ДоброЗайм» не сотрудничает со страховыми компаниями и не включает страховку в пакет своих услуг, экономя деньги, время, силы и нервы своих инвесторов. Но, по желанию инвестора, мы готовы добавить условие страхования в договор займа, при этом инвестор может самостоятельно выбрать страховую компанию.</p>
+                  <p>Наша компания – отличный вариант для ваших инвестиций. Это доказывает ее история развития с 2011 года и долгосрочное сотрудничество с нашими инвесторами по всей России с 2015г.</p>
+                </div>
+              </div>
+              <div class="faq__item spoiler">
+                <div class="faq__subtitle spoiler__title">Собираетесь ли вы понижать ставки для инвесторов, как делают сейчас топовые компании?<span></span></div>
+                <div class="spoiler__content"> 
+                  <p>С самого начала вложение денежных средств в микрофинансовые организации рассматривалось законодательством РФ как способ получить прибыль для опытных инвесторов, которые хорошо понимают рынок. Порог минимальной суммы вложений весьма высок – 1.5 млн рублей. Поэтому не удивительно, что инвесторы хотят обезопасить себя от риска потерять деньги. В таком случае слово «страховка» имеет весьма высокий градус убеждения, но так ли она необходима?</p>
+                  <p>Те редкие компании, которые предлагают страховые услуги, страхуют лишь предпринимательские риски, при этом страховые компании не несут ответственность за любые другие форс – мажорные обстоятельства.</p>
+                  <p>Например, если Банк России исключает МФО из государственного реестра микрофинансовых организаций, то страховая компания не будет нести никакой ответственности перед инвестором. Данная ситуация не будет являться страховым случаем, а это значит инвестор не получит страховой выплаты. Стоит отметить и тот факт, что, в настоящий момент, не зафиксировано прецедента в выплате страховой компенсации инвестору, застраховавшего риски инвестирования в МФО.</p>
+                  <p>Поэтому «ДоброЗайм» не сотрудничает со страховыми компаниями и не включает страховку в пакет своих услуг, экономя деньги, время, силы и нервы своих инвесторов. Но, по желанию инвестора, мы готовы добавить условие страхования в договор займа, при этом инвестор может самостоятельно выбрать страховую компанию.</p>
+                  <p>Наша компания – отличный вариант для ваших инвестиций. Это доказывает ее история развития с 2011 года и долгосрочное сотрудничество с нашими инвесторами по всей России с 2015г.</p>
+                </div>
+              </div>
+              <div class="faq__item spoiler">
+                <div class="faq__subtitle spoiler__title">Возможно ли досрочно вернуть сумму вложенных средств без потери процентов?<span></span></div>
+                <div class="spoiler__content"> 
+                  <p>С самого начала вложение денежных средств в микрофинансовые организации рассматривалось законодательством РФ как способ получить прибыль для опытных инвесторов, которые хорошо понимают рынок. Порог минимальной суммы вложений весьма высок – 1.5 млн рублей. Поэтому не удивительно, что инвесторы хотят обезопасить себя от риска потерять деньги. В таком случае слово «страховка» имеет весьма высокий градус убеждения, но так ли она необходима?</p>
+                  <p>Те редкие компании, которые предлагают страховые услуги, страхуют лишь предпринимательские риски, при этом страховые компании не несут ответственность за любые другие форс – мажорные обстоятельства.</p>
+                  <p>Например, если Банк России исключает МФО из государственного реестра микрофинансовых организаций, то страховая компания не будет нести никакой ответственности перед инвестором. Данная ситуация не будет являться страховым случаем, а это значит инвестор не получит страховой выплаты. Стоит отметить и тот факт, что, в настоящий момент, не зафиксировано прецедента в выплате страховой компенсации инвестору, застраховавшего риски инвестирования в МФО.</p>
+                  <p>Поэтому «ДоброЗайм» не сотрудничает со страховыми компаниями и не включает страховку в пакет своих услуг, экономя деньги, время, силы и нервы своих инвесторов. Но, по желанию инвестора, мы готовы добавить условие страхования в договор займа, при этом инвестор может самостоятельно выбрать страховую компанию.</p>
+                  <p>Наша компания – отличный вариант для ваших инвестиций. Это доказывает ее история развития с 2011 года и долгосрочное сотрудничество с нашими инвесторами по всей России с 2015г.</p>
+                </div>
+              </div>
+              <div class="faq__item spoiler">
+                <div class="faq__subtitle spoiler__title">Должен ли инвестор платить налог с полученных средств?<span></span></div>
+                <div class="spoiler__content"> 
+                  <p>С самого начала вложение денежных средств в микрофинансовые организации рассматривалось законодательством РФ как способ получить прибыль для опытных инвесторов, которые хорошо понимают рынок. Порог минимальной суммы вложений весьма высок – 1.5 млн рублей. Поэтому не удивительно, что инвесторы хотят обезопасить себя от риска потерять деньги. В таком случае слово «страховка» имеет весьма высокий градус убеждения, но так ли она необходима?</p>
+                  <p>Те редкие компании, которые предлагают страховые услуги, страхуют лишь предпринимательские риски, при этом страховые компании не несут ответственность за любые другие форс – мажорные обстоятельства.</p>
+                  <p>Например, если Банк России исключает МФО из государственного реестра микрофинансовых организаций, то страховая компания не будет нести никакой ответственности перед инвестором. Данная ситуация не будет являться страховым случаем, а это значит инвестор не получит страховой выплаты. Стоит отметить и тот факт, что, в настоящий момент, не зафиксировано прецедента в выплате страховой компенсации инвестору, застраховавшего риски инвестирования в МФО.</p>
+                  <p>Поэтому «ДоброЗайм» не сотрудничает со страховыми компаниями и не включает страховку в пакет своих услуг, экономя деньги, время, силы и нервы своих инвесторов. Но, по желанию инвестора, мы готовы добавить условие страхования в договор займа, при этом инвестор может самостоятельно выбрать страховую компанию.</p>
+                  <p>Наша компания – отличный вариант для ваших инвестиций. Это доказывает ее история развития с 2011 года и долгосрочное сотрудничество с нашими инвесторами по всей России с 2015г.</p>
+                </div>
+              </div>
+              <div class="faq__item spoiler">
+                <div class="faq__subtitle spoiler__title">Принимаете ли вы инвестиции от самозанятых?<span></span></div>
+                <div class="spoiler__content"> 
+                  <p>С самого начала вложение денежных средств в микрофинансовые организации рассматривалось законодательством РФ как способ получить прибыль для опытных инвесторов, которые хорошо понимают рынок. Порог минимальной суммы вложений весьма высок – 1.5 млн рублей. Поэтому не удивительно, что инвесторы хотят обезопасить себя от риска потерять деньги. В таком случае слово «страховка» имеет весьма высокий градус убеждения, но так ли она необходима?</p>
+                  <p>Те редкие компании, которые предлагают страховые услуги, страхуют лишь предпринимательские риски, при этом страховые компании не несут ответственность за любые другие форс – мажорные обстоятельства.</p>
+                  <p>Например, если Банк России исключает МФО из государственного реестра микрофинансовых организаций, то страховая компания не будет нести никакой ответственности перед инвестором. Данная ситуация не будет являться страховым случаем, а это значит инвестор не получит страховой выплаты. Стоит отметить и тот факт, что, в настоящий момент, не зафиксировано прецедента в выплате страховой компенсации инвестору, застраховавшего риски инвестирования в МФО.</p>
+                  <p>Поэтому «ДоброЗайм» не сотрудничает со страховыми компаниями и не включает страховку в пакет своих услуг, экономя деньги, время, силы и нервы своих инвесторов. Но, по желанию инвестора, мы готовы добавить условие страхования в договор займа, при этом инвестор может самостоятельно выбрать страховую компанию.</p>
+                  <p>Наша компания – отличный вариант для ваших инвестиций. Это доказывает ее история развития с 2011 года и долгосрочное сотрудничество с нашими инвесторами по всей России с 2015г.</p>
+                </div>
+              </div>
+              <div class="faq__item spoiler">
+                <div class="faq__subtitle spoiler__title">Где можно скачать образец договора?<span></span></div>
+                <div class="spoiler__content"> 
+                  <p>С самого начала вложение денежных средств в микрофинансовые организации рассматривалось законодательством РФ как способ получить прибыль для опытных инвесторов, которые хорошо понимают рынок. Порог минимальной суммы вложений весьма высок – 1.5 млн рублей. Поэтому не удивительно, что инвесторы хотят обезопасить себя от риска потерять деньги. В таком случае слово «страховка» имеет весьма высокий градус убеждения, но так ли она необходима?</p>
+                  <p>Те редкие компании, которые предлагают страховые услуги, страхуют лишь предпринимательские риски, при этом страховые компании не несут ответственность за любые другие форс – мажорные обстоятельства.</p>
+                  <p>Например, если Банк России исключает МФО из государственного реестра микрофинансовых организаций, то страховая компания не будет нести никакой ответственности перед инвестором. Данная ситуация не будет являться страховым случаем, а это значит инвестор не получит страховой выплаты. Стоит отметить и тот факт, что, в настоящий момент, не зафиксировано прецедента в выплате страховой компенсации инвестору, застраховавшего риски инвестирования в МФО.</p>
+                  <p>Поэтому «ДоброЗайм» не сотрудничает со страховыми компаниями и не включает страховку в пакет своих услуг, экономя деньги, время, силы и нервы своих инвесторов. Но, по желанию инвестора, мы готовы добавить условие страхования в договор займа, при этом инвестор может самостоятельно выбрать страховую компанию.</p>
+                  <p>Наша компания – отличный вариант для ваших инвестиций. Это доказывает ее история развития с 2011 года и долгосрочное сотрудничество с нашими инвесторами по всей России с 2015г.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="accounting">
+          <div class="container"> 
+            <h2 class="accounting__title show"> <span class="title-text">Отчетность за предыдущие годы</span><span class="line show"></span></h2>
+            <div class="accounting__body accounting__body-desktop"> 
+              <div class="accounting__left"> 
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title active"> 2022<span></span></div>
+                    <div class="accounting__content spoiler__content active"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/e73/u0hh2fie7ld1z4b3j3nrmufxfyd0o0yu/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2022g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность IХ мес. 2022г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/260/wm9vtw7lvr7xdw26w4qk9eul8g9togul/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2022.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I полугодие 2022г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/7b7/on2elcdvsogydte2y5e69hyrb6zqq0mi/Bukhgalterskaya-_finansovaya_-otchetnost-I-kvartal-2022g..pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I квартал 2022г</p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2020<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/142/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2020g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность годовая 2020г, включая Аудиторское заключение</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/9dd/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2020g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность IХ мес. 2020г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/8bd/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2020.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I полугодие 2020г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/9b1/Bukhgalterskaya-_finansovaya_-otchetnost-I-kvartal-2020g-.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I квартал 2020г</p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2018<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/4ac/Bukhgalterskaya-_finansova_-otchyetnost-godovaya-2018g._-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность годовая 2018г. включая Аудиторское заключение </p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/02d/Bukhgalterskaya-_finansovaya_-otchyetnost-I-kvartal-2018g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность IХ мес. 2018г.</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/a06/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2018g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I полугодие 2018г </p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2016<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/investicii-v-microzajmy/#w_referring_place=green_menu" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность годовая 2016г. включая Аудиторское заключение </p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2014<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/751/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2014g.-vklyuchaya-Auditorskoe-zaklyuchenie..pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность годовая 2014г. включая Аудиторское заключение. </p></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="accounting__right"> 
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2021<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/e17/juzmcesjpwccestqqgay6do94o220j0g/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2021g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность годовая 2021г, включая Аудиторское заключение</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/bf9/0c6gosxg7flbdrazlbye1ynyk6gpna9p/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2021g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность IХ мес. 2021г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/594/xa3zv9pszsz77xv8dahi76nybydasmhu/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2021-_1_.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I полугодие 2021г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/4fe/_-_-_-I-_-2021_.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I квартал 2021г</p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2019<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/f7b/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2019g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность годовая 2019г. включая Аудиторское заключение </p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/f29/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2019g..pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность IХ мес. 2019г.</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/fe8/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2019.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I полугодие 2019г </p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/08b/Bukhgalterskaya-_finansovaya_-otchyetnost-I-kvartal-2019g-_1_.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I квартал 2019г </p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2017<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/5a1/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2017g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность годовая 2017г, включая Аудиторское заключение</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/6dd/Bukhgalterskaya-_finansovaya_-otchyetnost-za-IX-mes.-2017g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность IХ мес. 2017г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/392/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2017g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчетность I полугодие 2017г</p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2015<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/d7f/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2015g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность годовая 2015г. включая Аудиторское заключение </p></a></div>
+                  </div>
+                </div>
+                <div class="accounting__item"> 
+                  <div class="accounting__card card spoiler"> 
+                    <div class="accounting__card-title spoiler__title">2013<span></span></div>
+                    <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/213/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2013g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                        <p>Бухгалтерская (финансовая) отчётность годовая 2013г</p></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accounting__body accounting__body-mobile"> 
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler active"> 
+                  <div class="accounting__card-title spoiler__title active">  2022<span></span></div>
+                  <div class="accounting__content spoiler__content active">  <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/e73/u0hh2fie7ld1z4b3j3nrmufxfyd0o0yu/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2022g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность IХ мес. 2022г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/260/wm9vtw7lvr7xdw26w4qk9eul8g9togul/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2022.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I полугодие 2022г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/7b7/on2elcdvsogydte2y5e69hyrb6zqq0mi/Bukhgalterskaya-_finansovaya_-otchetnost-I-kvartal-2022g..pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I квартал 2022г</p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2021<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/e17/juzmcesjpwccestqqgay6do94o220j0g/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2021g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность годовая 2021г, включая Аудиторское заключение</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/bf9/0c6gosxg7flbdrazlbye1ynyk6gpna9p/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2021g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность IХ мес. 2021г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/594/xa3zv9pszsz77xv8dahi76nybydasmhu/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2021-_1_.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I полугодие 2021г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/4fe/_-_-_-I-_-2021_.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I квартал 2021г</p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2020<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/142/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2020g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность годовая 2020г, включая Аудиторское заключение</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/9dd/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2020g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность IХ мес. 2020г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/8bd/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2020.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I полугодие 2020г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/9b1/Bukhgalterskaya-_finansovaya_-otchetnost-I-kvartal-2020g-.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I квартал 2020г</p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2019<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/f7b/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2019g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность годовая 2019г. включая Аудиторское заключение </p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/f29/Bukhgalterskaya-_finansovaya_-otchyetnost-IKH-mes.-2019g..pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность IХ мес. 2019г.</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/fe8/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2019.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I полугодие 2019г </p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/08b/Bukhgalterskaya-_finansovaya_-otchyetnost-I-kvartal-2019g-_1_.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I квартал 2019г </p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2018<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/4ac/Bukhgalterskaya-_finansova_-otchyetnost-godovaya-2018g._-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность годовая 2018г. включая Аудиторское заключение </p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/02d/Bukhgalterskaya-_finansovaya_-otchyetnost-I-kvartal-2018g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность IХ мес. 2018г.</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/a06/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2018g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I полугодие 2018г </p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2017<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/5a1/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2017g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность годовая 2017г, включая Аудиторское заключение</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/6dd/Bukhgalterskaya-_finansovaya_-otchyetnost-za-IX-mes.-2017g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность IХ мес. 2017г</p></a><a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/392/Bukhgalterskaya-_finansovaya_-otchyetnost-I-polugodie-2017g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчетность I полугодие 2017г</p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2016<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/investicii-v-microzajmy/#w_referring_place=green_menu" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность годовая 2016г. включая Аудиторское заключение </p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2015<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/d7f/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2015g.-vklyuchaya-Auditorskoe-zaklyuchenie.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность годовая 2015г. включая Аудиторское заключение </p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2014<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/751/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2014g.-vklyuchaya-Auditorskoe-zaklyuchenie..pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность годовая 2014г. включая Аудиторское заключение. </p></a></div>
+                </div>
+              </div>
+              <div class="accounting__item"> 
+                <div class="accounting__card card spoiler"> 
+                  <div class="accounting__card-title spoiler__title">2013<span></span></div>
+                  <div class="accounting__content spoiler__content"> <a class="accounting__content-item" href="https://dobrozaim.ru/upload/iblock/213/Bukhgalterskaya-_finansovaya_-otchyetnost-godovaya-2013g.pdf" target="_blank"> <img src="images/accounting/file.svg" alt="alt">
+                      <p>Бухгалтерская (финансовая) отчётность годовая 2013г</p></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news"> 
+          <div class="container"> 
+            <h2 class="news__title show"> <span class="title-text">новости</span><span class="line show"> </span></h2>
+            <div class="news__body">
+              <div class="news__swiper swiper"> 
+                <div class="swiper-wrapper"> 
+                  <div class="news__slide swiper-slide"> 
+                    <div class="show news__card card"> 
+                      <div class="news__img"> <img src="images/news/1.jpg" alt="alt"></div>
+                      <div class="news__date">16.11.2022</div>
+                      <p>Общее собрание участников МФК «Саммит»  выбрало двух новых членов Совета директоров и одобрило программу облигаций на сумму 3 млрд рублей.</p><a class="news__read-all" href="">Читать полностью</a>
+                    </div>
+                  </div>
+                  <div class="news__slide swiper-slide"> 
+                    <div class="show news__card card"> 
+                      <div class="news__img"> <img src="images/news/1.jpg" alt="alt"></div>
+                      <div class="news__date">16.11.2022</div>
+                      <p>Общее собрание участников МФК «Саммит»  выбрало двух новых членов Совета директоров и одобрило программу облигаций на сумму 3 млрд рублей.</p><a class="news__read-all" href="">Читать полностью</a>
+                    </div>
+                  </div>
+                  <div class="news__slide swiper-slide"> 
+                    <div class="show news__card card"> 
+                      <div class="news__img"> <img src="images/news/1.jpg" alt="alt"></div>
+                      <div class="news__date">16.11.2022</div>
+                      <p>Общее собрание участников МФК «Саммит»  выбрало двух новых членов Совета директоров и одобрило программу облигаций на сумму 3 млрд рублей.</p><a class="news__read-all" href="">Читать полностью</a>
+                    </div>
+                  </div>
+                  <div class="news__slide swiper-slide"> 
+                    <div class="show news__card card"> 
+                      <div class="news__img"> <img src="images/news/1.jpg" alt="alt"></div>
+                      <div class="news__date">16.11.2022</div>
+                      <p>Общее собрание участников МФК «Саммит»  выбрало двух новых членов Совета директоров и одобрило программу облигаций на сумму 3 млрд рублей.</p><a class="news__read-all" href="">Читать полностью</a>
+                    </div>
+                  </div>
+                  <div class="news__slide swiper-slide"> 
+                    <div class="show news__card card"> 
+                      <div class="news__img"> <img src="images/news/1.jpg" alt="alt"></div>
+                      <div class="news__date">16.11.2022</div>
+                      <p>Общее собрание участников МФК «Саммит»  выбрало двух новых членов Совета директоров и одобрило программу облигаций на сумму 3 млрд рублей.</p><a class="news__read-all" href="">Читать полностью</a>
+                    </div>
+                  </div>
+                  <div class="news__slide swiper-slide"> 
+                    <div class="show news__card card"> 
+                      <div class="news__img"> <img src="images/news/1.jpg" alt="alt"></div>
+                      <div class="news__date">16.11.2022</div>
+                      <p>Общее собрание участников МФК «Саммит»  выбрало двух новых членов Совета директоров и одобрило программу облигаций на сумму 3 млрд рублей.</p><a class="news__read-all" href="">Читать полностью</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="last"> 
+          <div class="container last__container">
+            <div class="last__left"> 
+              <div class="last__title show">Остались вопросы?</div>
+              <p>Заполните заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
+            </div>
+            <div class="last__right"> 
+              <form class="form card" action=""> 
+                <div class="form__input">
+                  <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form__input">
+                  <input type="tel" placeholder="Введите ваш номер телефона" required>
+                </div>
+                <div class="form__agreement"> <span class="form__agreement-agree"> </span>
+                  <p>Согласен с <a href="#" target="_blank">политикой конфиденциальности</a></p>
+                </div>
+                <button class="form__btn btn-orange">Перезвоните мне</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+/* base */
+@import "base/var";
+@import "base/reset";
+@import "base/fonts";
+
+/* mixin */
+@import "base/mixin";
+
+/*libs*/
+
+
+/* main */
+@import "partials/main";
+
+/* components */
+@import "partials/header";
+@import "partials/footer";
+@import "partials/popup";
+
+/*blocks*/
+@import "blocks/hero";
+@import "blocks/calculator";
+@import "blocks/rate";
+@import "blocks/about";
+@import "blocks/chart";
+@import "blocks/reviews";
+@import "blocks/boss";
+@import "blocks/doc";
+@import "blocks/faq";
+@import "blocks/accounting";
+@import "blocks/news";
+@import "blocks/last";

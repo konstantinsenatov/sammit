@@ -1,0 +1,90 @@
+.accounting {
+	margin-top: 130px;
+	@media (max-width: 1199px){
+		margin-top: 100px;
+	}
+	@media (max-width: 575px){
+		margin-top: 70px;
+	}
+	&__title {
+		padding-top: 40px;
+		@media (max-width: 575px){
+			padding-top: 24px;
+		}
+	}
+	&__body {
+		margin-top: 80px;
+		@media (max-width: 1199px){
+			margin-top: 64px;
+		}
+		@media (max-width: 575px){
+			margin-top: 32px;
+		}
+		>* {
+			flex: 0 1 50%;
+		}
+		&-desktop {
+			display: flex;
+			@media (max-width: 900px){
+				display: none;
+			}
+		}
+		&-mobile {
+			display: none;
+			@media (max-width: 900px){
+				display: block;
+			}
+		}
+	}
+	&__left {
+		padding-right: 16px;
+	}
+	&__item {
+		margin-top: 16px;
+		&:first-child{
+			margin: 0;
+		}
+	}
+	&__card {
+		padding: 24px;
+		@media (max-width: 900px){
+			padding: 24px 16px;
+		}
+		&-title {
+			span {
+				transition: all 0.3s ease 0s;
+				background: url('../images/accounting/arrow.svg') 0 0 / 100% 100% no-repeat;
+			}
+		}
+		.accounting__card-title {
+			&.active {
+				span {
+					transform: rotate(360deg);
+					background: url('../images/accounting/x.svg') 0 0 / 100% 100% no-repeat;
+				}
+			}
+		}
+	}
+	&__content {
+		&-item {
+			margin-top: 24px;
+			display: flex;
+			&:first-child{
+				margin: 0;
+			}
+			img {
+				width: 32px;
+				height: 32px;
+			}
+			p {
+				margin-left: 24px;
+			}
+		}
+		&.active {
+			display: block;
+		}
+	}
+	&__right {
+		padding-left: 16px;
+	}
+}
